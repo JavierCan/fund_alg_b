@@ -20,7 +20,11 @@ char* date = "02-02-22T10:25: 00z";
 ///ejecucion del programa///
 int main(){
   date = "02-02-22T10:25: 00z";
-    int hours = 22;
+    int hours = 22; //%d - %i
+    float pi = 3.1416; /// %f
+    char character = "c"; /// %c
+    char*  name = "javier";//////%s
+    int *  adress = 0xf85; ///%p
     hours = hours + 2;
     printf ("hours: %i\n", hours); 
     printf ("hello Data B %s\n", name);
