@@ -9,9 +9,9 @@ int main(int argc, char ** argv){
     bool notHasReminder = ( n % 2 == 0);
 
     if (notHasReminder){
-        printf("this number %d is even \n", n);
+        printf("the number %d is even \n", n);
     } else {
-        printf("this number %d is odd \n", n);
+        printf("the number %d is odd \n", n);
     }
     
     return 0;
