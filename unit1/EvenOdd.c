@@ -1,11 +1,18 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main (int argc, char * argv){
- if (argc % 2 == 0 )
- printf("the number %s,is even %d", argv[1],argc);
- else 
- printf("the number %s, is odd %d");
- return 0;
 
+int main(int argc, char ** argv){
+
+    int n;
+    scanf ("%d", &n);
+    bool notHasReminder = ( n % 2 == 0);
+
+    if (notHasReminder){
+        printf("this number %d is even \n", n);
+    } else {
+        printf("this number %d is odd \n", n);
+    }
+    
+    return 0;
 }
