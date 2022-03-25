@@ -19,15 +19,16 @@ if (individedbyto)  printf("even number : %d\n", number);
 printf ("while solution!!\n");
 int i = 1;
 while (i <=rango2){
-    printf ("it : %d\n", i);
+printf ("it : %d\n", i);
     i = 1+1;
+
 }
 
 
 
     return 0;
 }
-
+// 
 
 
 
